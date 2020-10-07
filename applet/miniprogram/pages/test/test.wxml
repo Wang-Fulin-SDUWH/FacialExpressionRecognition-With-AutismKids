@@ -1,0 +1,7 @@
+<!--pages/test/test.wxml-->
+  <input class="picker" type="number" bindinput='bindInput' placeholder="0" />
+  <button bindtap="sum">sum</button>
+  <button bindtap="upload">upload</button>
+    <view class="picker">
+    +1：{{result}}
+  </view>

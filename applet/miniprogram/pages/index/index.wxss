@@ -1,0 +1,66 @@
+/**index.wxss**/
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-center;
+}
+button{
+  background:#96ffe0;
+  display: inline-block;
+  margin: 10rpx
+}
+.block{
+  padding: 15rpx;
+  font-size: 42rpx;
+  display: flex;
+  align-items: center;
+
+}
+.block view{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inline{
+  display: inline-block;
+  height: 80rpx;
+
+}
+.idInput{
+  font-size: 40rpx;
+  border: 3rpx #666 solid;
+  border-radius: 10rpx; 
+  margin: 10rpx;
+  width: 320rpx;
+  display: flex;
+}
+
+.pdInput{
+  font-size: 40rpx;
+  border: 3rpx #666 solid;
+  border-radius: 10rpx; 
+  margin: 10rpx;
+  width: 420rpx;
+  height: 80rpx;
+  display: flex;
+  position: relative;
+}
+#pd{
+  display: inline;
+}
+#tr{
+  position: absolute;
+  right: 30rpx;
+  top: 15rpx;
+  float: right;
+}
+picker{
+  padding-top: 10rpx;
+}
+ec-canvas{
+  width: 100%;
+  height: 500rpx;
+}

@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="block">
+    <view class="inline">
+      <text>查询时段</text>
+    </view>
+    <view class="pdInput">
+      <picker bindchange="pickPeriod" value="{{period_index}}" range="{{period}}" class="inline">
+        <view class="inline" id='pd'>{{period[period_index]}}
+        </view>
+        <text class="inline" id='tr'>▼</text>
+      </picker>
+    </view>
+  </view>
+
+  <view class="block">
+    <view class="inline">
+      <text>查询ID</text>
+    </view>
+    <input class="idInput inline" type="number" bindinput='idInput' placeholder="0"></input>
+    <button bindtap="query">查询</button>
+  </view>
+
+    <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec1 }}"></ec-canvas>
+
+      <ec-canvas id="mychart-dom-graph" canvas-id="mychart-graph" ec="{{ ec2 }}"></ec-canvas>
+
+</view>

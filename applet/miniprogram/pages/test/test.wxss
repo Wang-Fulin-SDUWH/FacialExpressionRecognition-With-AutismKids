@@ -1,0 +1,31 @@
+/**index.wxss**/
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.section{
+  margin: 12rpx;
+  width: 60%;
+}
+.picker{
+  padding: 10rpx;
+  border: 3rpx #333 solid;
+  /* border-radius: 10%; */
+}
+button{
+  background:#96ffe0;
+  margin: 40rpx;
+
+}
+.start{
+  height: 200rpx;
+  /* width: 200rpx; */
+  /* margin: 50%; */
+  padding: 60rpx
+}
+.tip{
+  margin-bottom:20rpx; 
+}
